@@ -6,7 +6,7 @@ Getting Started
 To get started with the project, clone the repository to your local machine and run the following commands: 
 composer install
 npm install
-cp .env.example .env
+cp .env.example .env [Update the `.env` file with your database credentials and other relevant settings.]
 php artisan key:generate
 php artisan migrate --seed
 
